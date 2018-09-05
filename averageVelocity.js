@@ -12,11 +12,6 @@ const averageVelocity = (base, sequence) => {
   };
 
   const calcResult = (yResult, i) => {
-    // console.log("yResult: ", yResult);
-    // console.log("baseAnswer: ", baseAnswer);
-    // console.log("seq[i]: ", seq[i]);
-    // console.log("base: ", base);
-    // if (i === 1) console.log("yResult: ", yResult, "baseAnswer: ", baseAnswer);
     const result = (yResult - baseAnswer) / (seq[i] - base);
     finalResults.push(result);
   };
